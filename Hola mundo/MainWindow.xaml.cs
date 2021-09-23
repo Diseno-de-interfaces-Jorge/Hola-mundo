@@ -15,7 +15,7 @@ namespace Hola_mundo
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MensajeTxtBlock.Text = "Hola " + MensajeTextBox.Text;
+            MensajeTxtBlock.Text = "Hola  " + MensajeTextBox.Text;
             MensajeTxtBlock.Foreground = Brushes.BlueViolet;
         }
     }
